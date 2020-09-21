@@ -7,11 +7,12 @@ import Address from './profile/Address';
 
 
 function App() {
+  var name = "zeineb"
   return (
     <div className="App">
       <header className="App-header">
         <Profile />
-        <Fullname />
+        <Fullname firstName = {name} verif="hello"}/>
         <Address/>
       </header>
     </div>
